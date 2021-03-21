@@ -1,18 +1,19 @@
+/*All text align in center */
 body {
   text-align: center;
 }
 
-/* Square box */
+/* Square box style */
 .square {
   text-align: center;
   width: 50px;
   background: #eee;
-  display: inline-block;
+  display: inline-block; /*horizontal*/
   padding: 40px;
   font-size: 60px;
   margin: 5px;
-  cursor: pointer;
-  color: #eee;
+  cursor: pointer; /* set pointer cursor*/
+  color: #eee; /* - symbol hidden */
 }
 
 /* Styling divs */
@@ -22,10 +23,19 @@ body {
   margin-top: 10px;
 }
 
+/*Buttons style*/
 button {
   margin-top: 10px;
   width: 100px;
   height: 30px;
   background: #eee;
   cursor: pointer;
+  border-radius: 10px;
+  border-style: none;
+}
+
+button:hover {
+  background: #b41f1f;
+  color: white;
+  height: 35px;
 }
