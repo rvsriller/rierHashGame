@@ -2,6 +2,7 @@ body {
   text-align: center;
 }
 
+/* Square box */
 .square {
   text-align: center;
   width: 50px;
@@ -14,6 +15,7 @@ body {
   color: #eee;
 }
 
+/* Styling divs */
 .player,
 .winner {
   font-size: 30px;
