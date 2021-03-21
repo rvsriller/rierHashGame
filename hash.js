@@ -126,6 +126,8 @@ function checkWinner(){
 function changeWinner(square) {
     winner = square.innerHTML;
     selectedWinner.innerHTML = winner;
+    /*Activate restart button
+    document.getElementById('Restart').style.display = "visible";*/
 }
 
 function changeSquareColor(squarebox1, squarebox2, squarebox3) {

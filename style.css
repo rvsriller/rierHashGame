@@ -14,6 +14,7 @@ body {
   margin: 5px;
   cursor: pointer; /* set pointer cursor*/
   color: #eee; /* - symbol hidden */
+  border-radius: 10px;
 }
 
 /* Styling divs */
