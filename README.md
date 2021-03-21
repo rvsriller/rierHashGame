@@ -4,6 +4,8 @@ Project provided in Javascript Developer Bootcamp by (DIO) Digital Innovation On
 
 ![](hashgame.png)
 
+From a paper to a web browser.
+
 # Tecnologies
 
 HTML5 | CSS3 | Javascript ES6
