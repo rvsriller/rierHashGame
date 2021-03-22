@@ -17,3 +17,6 @@ HTML5 | CSS3 | Javascript ES6
 # Author
 
 Riller Beata
+
+Open this page on your browser [Hash Game](https://rvsriller.github.io/rierHashGame/) and try it out!!!
+
