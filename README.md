@@ -17,3 +17,5 @@ HTML5 | CSS3 | Javascript ES6
 # Author
 
 Riller Beata
+
+![](screenshots/playing.png)
