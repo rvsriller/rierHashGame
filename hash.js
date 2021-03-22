@@ -125,9 +125,10 @@ function checkWinner(){
 //Change Winner
 function changeWinner(square) {
     winner = square.innerHTML;
-    selectedWinner.innerHTML = winner;
+    selectedWinner.innerHTML = winner + " won the game!";
+    
     /*Activate restart button
-    document.getElementById('Restart').style.display = "visible";*/
+    document.getElementById('winner').style.display = "visible";*/
 }
 
 function changeSquareColor(squarebox1, squarebox2, squarebox3) {
