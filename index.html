@@ -4,51 +4,57 @@
         <title>Hash Game</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css" >
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Syne+Mono&display=swap" rel="stylesheet">
         <script src="hash.js" defer></script>
     </head>
     <body>
-        <h1>Hash Game</h1>
-        <div>
-            <div id="1" class="square" onclick="getSquare(this.id)">-</div>
-            <div id="2" class="square" onclick="getSquare(this.id)">-</div>
-            <div id="3" class="square" onclick="getSquare(this.id)">-</div>
+        <div class="gameName">
+            <h1>Hash Game</h1>
         </div>
-        
-        <div>
-            <div id="4" class="square" onclick="getSquare(this.id)">-</div>
-            <div id="5" class="square" onclick="getSquare(this.id)">-</div>
-            <div id="6" class="square" onclick="getSquare(this.id)">-</div>
-        </div>
-        
-        <div>
-            <div id="7" class="square" onclick="getSquare(this.id)">-</div>
-            <div id="8" class="square" onclick="getSquare(this.id)">-</div>
-            <div id="9" class="square" onclick="getSquare(this.id)">-</div>
-        </div>
-
-        <div class="player">
-            <label>
-                Player:
-            </label>
-            <label id="selectedPlayer">
-        
-            </label>
+        <div class="squareDiv">
+            <div>
+                <div id="1" class="square" onclick="getSquare(this.id)">-</div>
+                <div id="2" class="square" onclick="getSquare(this.id)">-</div>
+                <div id="3" class="square" onclick="getSquare(this.id)">-</div>
+            </div>
+            
+            <div>
+                <div id="4" class="square" onclick="getSquare(this.id)">-</div>
+                <div id="5" class="square" onclick="getSquare(this.id)">-</div>
+                <div id="6" class="square" onclick="getSquare(this.id)">-</div>
+            </div>
+            
+            <div>
+                <div id="7" class="square" onclick="getSquare(this.id)">-</div>
+                <div id="8" class="square" onclick="getSquare(this.id)">-</div>
+                <div id="9" class="square" onclick="getSquare(this.id)">-</div>
+            </div>
         </div>
         
         <div class="winner">
-            <label hidden>
-                Winner:
-            </label>
             <label id="selectedWinner">
         
             </label>
         </div>
-        
-        <div>
-            <button id="Restart" onclick="restartGame()">
-                Restart Game
-            </button>
+       <div class="info">
+            <div class="player">
+                <label>
+                    Player
+                </label>
+                <label id="selectedPlayer">
+            
+                </label>
+            </div>
+            
+            <div>
+                <button id="Restart" onclick="restartGame()">
+                    Restart Game
+                </button>
+            </div>
         </div>
+        
     
     </body>
     
