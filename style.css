@@ -7,11 +7,9 @@ body {
 
 .gameName {
   font-family: "Syne Mono", monospace;
-  background-color: #ffff00c2;
   color: #2c2b2b;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 20px;
 }
 
 /* Square box style */
