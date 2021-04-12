@@ -1,6 +1,6 @@
-# Hash Game
+# <h1 align="center">Hash Game </h1>
 
-Project provided in Javascript Developer Bootcamp by Digital Innovation One
+Javascript Developer Bootcamp by Digital Innovation One
 
 ![](screenshots/hashgame.png)
 
@@ -16,7 +16,6 @@ HTML5 | CSS3 | Javascript ES6
 
 # Author
 
-Riller Beata
+Riller Vincci
 
 Open this page on your browser [Hash Game](https://rvsriller.github.io/rierHashGame/) and try it out!!!
-
